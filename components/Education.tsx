@@ -3,8 +3,9 @@ import Link from '@/components/Link'
 const Education = ({ title, company, location, range, url, text1, text2 }) => {
   return (
     <div className="my-3">
-      <div className="flex flex-row text-xl">
+      <div className="flex-row text-xl">
         <span className="text-gray-500 dark:text-gray-400">{title}</span>{' '}
+        <div className="text-gray-500 dark:text-gray-400">{location}</div>
         <span className="text-gray-500 dark:text-gray-400">&nbsp;@&nbsp;</span>{' '}
         <span className="text-primary-color-500 dark:text-primary-color-dark-500">
           <Link href={url} className="company">

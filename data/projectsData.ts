@@ -1,24 +1,24 @@
 const projectsData = [
   {
-    title: 'Branding',
+    title: 'Digital Product E-commerce (DPE)',
     description:
-      'This project is a fully responsive & complex marketing website with smooth animations built with Next.js & Framer-Motion.',
-    imgSrc: '/static/images/projects/Branding.png',
-    href: 'https://github.com/reubence/awwards-website-recreation',
+      'Digital Product E-commerce (DPE) is a software platform to buy and sell digital products. This web application allows users to buy digital products and download it.This is a simple MultiVendor e-commerce website built with Django (Ptyhon) and Stripe is added as payment processor.In this website, Vendors (Stores) can register and add their products.And Users can visit the product and order by paying with Debit/Credit Card (Stripe is Used).',
+    imgSrc: '/static/images/projects/dpe.png',
+    href: 'https://github.com/aioont/digital_product_ecommerce',
   },
   {
-    title: 'Fin-Tech',
+    title: 'Disaster management and detection',
     description:
-      'An enterprise resource planning software to manage daily processes including Accounting, Invoice Generation & Tax Filing. It was built to be fully responsive using Next.js & Supabase and aims to automate various processes and enhance productivity of employeess.',
-    imgSrc: '/static/images/projects/FinTech.png',
-    href: 'https://github.com/reubence/ERP',
+      'A fully functional disaster management website with Email Alert and AI fake detection, It will predict the fairness of the disaster reporting. User can report a disaster and the system will sort out all nearby Shops, service, hospitals and Volunteers.',
+    imgSrc: '/static/images/projects/dm.png',
+    href: 'https://github.com/aioont/Disaster-Management-and-Detection',
   },
   {
-    title: 'Blockchain',
+    title: 'Kex & Nethunter',
     description:
-      'A single page website that mints NFTs for the user on the largest marketplace (OpenSea) and is fully responsive. Built using Next.js, Framer-Motion and Supabase.',
-    imgSrc: '/static/images/projects/Blockchain.png',
-    href: 'https://github.com/reubence/nft-minting-live',
+      'Two command line programs used by Kali nethunter to connect to vncserver.',
+    imgSrc: '/static/images/projects/kex.png',
+    href: 'https://github.com/aioont/kex',
   },
 ]
 
