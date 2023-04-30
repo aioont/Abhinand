@@ -75,11 +75,13 @@ export default function AuthorLayout({ children, frontMatter }: Props) {
             </h1>
           </div>
           <div className="max-w-none pt-8 pb-8 xl:col-span-2">
-            {experienceData.map((d) => (
-              <Experience
-                title={d.title}
-              />
-            ))}
+          {experienceData.map((d) => (
+  <Experience
+    key={d.title}
+    title={d.title}
+  />
+))}
+
           </div>
         </div>
         

@@ -1,6 +1,5 @@
-import Link from '@/components/Link'
 
-const Experience = ({ title, company, location, range, url, text1, text2 }) => {
+const Experience = ({ title }) => {
   return (
     <div className="my-3">
       <div className="flex flex-row text-xl">
